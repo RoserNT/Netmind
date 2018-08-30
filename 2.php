@@ -1,8 +1,7 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 echo "22222";
+function calcularIVA(){
+    $iva=.21;
+    $precio=1000;
+    return $precio*$iva;
+}
